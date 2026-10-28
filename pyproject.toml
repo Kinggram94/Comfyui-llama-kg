@@ -1,0 +1,22 @@
+[project]
+name = "comfyui-llama-kg"
+description = "llama.cpp LLM/VLM nodes for ComfyUI with Skill loading and multi-turn chat"
+version = "1.0.0"
+license = {file = "LICENSE"}
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Environment :: GPU :: NVIDIA CUDA",
+    "Environment :: GPU :: Apple Metal",
+]
+
+dependencies = ["diskcache", "scipy", "numpy", "pillow", "gguf", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/sthao42/ComfyUI-llama-cpp_vlm"
+
+[tool.comfy]
+PublisherId = "kg"
+DisplayName = "Comfyui-llama-kg"
+Icon = ""

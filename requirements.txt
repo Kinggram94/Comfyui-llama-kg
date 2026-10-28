@@ -1,0 +1,10 @@
+# 纯 Python 依赖（ComfyUI 环境一般已自带）。
+# 注意：本插件不负责安装 llama-cpp-python。
+# 请使用与你的 ComfyUI 环境匹配的 JamePeng/llama-cpp-python CUDA 构建
+# （本插件与 0.4.2+ 及以上版本兼容，接口按签名自适应）。
+diskcache
+scipy
+numpy
+pillow
+gguf
+tqdm
